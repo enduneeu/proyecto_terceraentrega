@@ -9,6 +9,13 @@ h1 {
     color: #F8F7FF;
     font-size: 25px;
     font-weight: bold;
+    animate__bounce
+}
+
+/* ANIMATION */
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
 }
 
 p {
