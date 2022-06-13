@@ -181,6 +181,7 @@ p {
 .contact-label input[type=submit]:hover {
     background-color: #8a9fdd;
     color: white;
+    transform: scale(1.2);
 
 }
 
