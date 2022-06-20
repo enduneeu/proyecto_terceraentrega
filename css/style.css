@@ -9,7 +9,7 @@ h1 {
     color: #F8F7FF;
     font-size: 25px;
     font-weight: bold;
-    animate__bounce
+
 }
 
 /* ANIMATION */
@@ -27,6 +27,7 @@ p {
 .menu {
     display: flex;
     flex-wrap: wrap-reverse;
+    align-items: flex-end;
 }
 
 .menu li {
@@ -114,7 +115,7 @@ p {
     grid-area: nav;
     display: flex;
     padding: 15px;
-    align-items: center;
+    align-items: flex-end;
     justify-content: end;
 
 }
