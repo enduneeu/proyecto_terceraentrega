@@ -1,0 +1,52 @@
+/* CONTACT */
+
+.contact-main {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("/img/contact-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.contact-section {
+    background: rgba(0, 0, 0, 0.8);
+    width: 60%;
+    color: white;
+    border-radius: 20px;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-header {
+    text-align: center;
+}
+
+.contact-label {
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input {
+        height: 2rem;
+        width: 15rem;
+        margin: 0.5rem;
+        border-radius: 15px;
+        text-align: center;
+
+    }
+
+    input[type=submit]:hover {
+        background-color: #8a9fdd;
+        color: white;
+        transform: scale(1.2);
+
+    }
+}

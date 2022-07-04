@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// IMPORTS
+
+@import './variables/_extend.scss';
+@import './variables/_colores.scss';
+
+@import './secciones/_header.scss';
+@import './secciones/_footer.scss';
+@import './secciones/_galeria.scss';
+@import './secciones/_contact.scss';
+@import './secciones/_encontranos.scss';
+@import './secciones/_historia.scss';
+
+
+
+/* MAIN ELEMENTS */
+
+h1 {
+    @extend %estilosTitulo
+}
+
+/* ANIMATION */
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+}
+
+p {
+    @extend %estilosParrafo;
+    @include fontStyle($colorFondo, $textoPrimario);
+}
+
+/* INDEX */
+
+.main {
+
+    background-size: cover;
+    background-color: #8a9fdd;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.article {
+    text-align: center;
+
+    img {
+        width: 400px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,14 @@
+.slideshow-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    img {
+        width: 100px;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+}

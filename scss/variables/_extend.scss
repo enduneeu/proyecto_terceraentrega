@@ -1,0 +1,23 @@
+// EXTEND
+
+%estilosParrafo {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+}
+
+%estilosTitulo {
+    font-size: 38px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+// MIXIN
+
+@mixin fontStyle ($colorFondo, $textoPrimario) {
+    background-color: $colorFondo;
+    text-transform: uppercase;
+    color: $textoPrimario;
+}

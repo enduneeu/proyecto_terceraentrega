@@ -1,0 +1,25 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: flex-end;
+
+    li {
+        list-style: none;
+        padding: 15px;
+    }
+
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    a:hover {
+        color: #E6BEAE;
+        font-weight: 100;
+    }
+}
+
+.header {
+    background-color: #454851;
+}
